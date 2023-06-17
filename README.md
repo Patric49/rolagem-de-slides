@@ -1,2 +1,2 @@
-# rolagem-de-slides 🖱️
+# scroll-de-slides 🖱️
 Exercício de passagem de imagens em carousel.
