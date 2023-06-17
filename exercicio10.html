@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css/folha.css" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>    
+    <title>Scroll Slides</title>
+</head>
+<body>
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="/figure/nave1.jpg" alt="carro"></div>
+              <div class="swiper-slide"><img src="/figure/nave2.jpg" alt="carro1"></div>
+              <div class="swiper-slide"><img src="/figure/nave3.jpg" alt="carro2"></div>
+              <div class="swiper-slide"><img src="/figure/nave4.jpg" alt="carro3"></div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <h1><div class="swiper-button-prev"></div></h1>
+            <h1><div class="swiper-button-next"></div></h1>
+          
+          </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+     <script>
+     const swiper = new Swiper('.swiper', {
+     
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+    </script>
+
+</body>
+
+</html> 
